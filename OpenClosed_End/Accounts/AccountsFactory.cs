@@ -2,7 +2,7 @@
 
 namespace OpenClosed_End.Accounts
 {
-    public class Accounts : IAccount
+    public class AccountsFactory : IAccount
     {
         public EmployeeModel Create(IApplicantModel person)
         {

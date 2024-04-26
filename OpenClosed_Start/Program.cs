@@ -8,7 +8,7 @@ var applicants = new List<PersonModel>
    };
 
 List<EmployeeModel> employees = new List<EmployeeModel>();
-Accounts accountProcessor = new Accounts();
+AccountsFactory accountProcessor = new AccountsFactory();
 
 foreach (var person in applicants)
 {

@@ -1,6 +1,6 @@
 ﻿namespace OpenClosed_Start.Models
 {
-    public class Accounts
+    public class AccountsFactory
     {
         public EmployeeModel Create(PersonModel person)
         {

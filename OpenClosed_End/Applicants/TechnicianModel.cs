@@ -6,6 +6,6 @@ namespace OpenClosed_End.Applicants
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public IAccount AccountProcessor { get; set; } = new Accounts.Accounts();
+        public IAccount AccountProcessor { get; set; } = new Accounts.AccountsFactory();
     }
 }
